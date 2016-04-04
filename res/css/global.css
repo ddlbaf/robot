@@ -1,0 +1,138 @@
+/* ============================================================
+样式重置
+============================================================ */
+
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,select,textarea,button,th,td,blockquote,address,pre{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,input,textarea,select,button,label{font-size:100%;vertical-align:middle;}
+ul,dl,ol{list-style:none;}
+img,fieldset{border:none;}
+img{display:inline-block;overflow:hidden;vertical-align:top;}
+em,address{font-style:normal;}
+sup,sub{vertical-align:baseline;}
+table{border-collapse:collapse;border-spacing:0;}
+li{list-style:none;}
+q:before{content:"";}
+q:after{content:"";}
+button{cursor:pointer;outline:0 none;}
+input{outline:0 none;}
+textarea{word-wrap:break-word;resize:none;outline: 0 none;}  /*  word-wrap for opera, resize for webkit  */
+input::-ms-clear{display:none;}  /*  Remove X button in input for IE10  */
+/* HTML5 [[ */
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}
+menu{margin:0;padding:0;}
+mark{background-color:transparent;}
+a{text-decoration:none;}
+/* HTML5 ]] */
+body{font:12px/1.5 Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;background-color:#f4f4f4;}
+
+/* ============================================================
+   常用功能
+   ============================================================ */
+
+/*  清除浮动  */
+.clearfix:after{content:".";clear:both;display:block;height:0;line-height:0;font-size:0;visibility:hidden;}
+.clearfix{zoom:1;}
+
+/*  隐藏/显示  */
+html .hide{display:none!important;}
+html .show{display:block;}
+html .hidden{position:absolute!important;width:0!important;height:0!important;line-height:0!important;overflow:hidden!important;}
+html .visible{position:static;}
+html .v-hidden{visibility:hidden;}
+.relative{position: relative;}
+
+
+
+
+/* ============================================================
+   常用布局
+   ============================================================ */
+.wrap{width:1120px;margin:0 auto;}
+.header .nav-btn, .frd-links .contact-qq, .subnav .arr-down, .scrolltop,
+.subnav .nav-a{background:url(../img/global/global.png) no-repeat;}
+
+
+.subnav .arr-down{display:inline-block;width:7px;height:7px;margin-left:3px;*vertical-align:3px;background-position:-77px 0;}
+
+.header{border-bottom:4px solid #DCDCDC;background-color:#fff;}
+.header .logo{float:left;padding:13px 0 0;}
+.header .nav{float:right;margin:14px 0 -4px;}
+.header .nav:hover .on{border-bottom: 5px solid #DCDCDC;}
+.header .nav-li, .header .nav-li-btn{float:left;margin-left:45px;font-weight:bold;}
+.header .nav-a{display:block;line-height:48px;padding:0 5px;font-size:12px;color:#787878;}
+.header .nav-btn{display:block;font-size:12px;width:76px;height:21px;margin-top:13px;line-height:21px;text-align:center;color:#787878;}
+.header .nav-li:hover, .header .on, .header .nav .on:hover{border-bottom:5px solid #f8b62b;color:#606060;}
+.header .nav-li:hover .nav-a, .header .on .nav-a, .header .nav-li-btn:hover .nav-btn{color:#606060;}
+
+.subnav{position:relative;padding:27px 0 13px 40px;background-color:rgba(0,0,0,0.55);color:#fff;}
+.subnav .wrap{position:relative;min-height:29px;}
+.subnav .title-line{border-left:3px solid #fff;padding-left:16px;}
+.subnav .title-line .subtitle{font-size:14px;font-weight:normal;line-height:14px;*line-height:20px;color: #fff;}
+.subnav .title-line p{font-size:11px;line-height:11px;padding-top:4px;}
+.subnav .subnav-ul{position:absolute;right:13px;bottom:-6px;}
+.subnav .nav-li{float:left;padding:0 15px;}
+.subnav .nav-a{display:inline-block;width:74px;height:23px;line-height:23px;font-size:11px;color:#fff;text-align:center;background-position: -999px -999px;}
+.subnav .nav-a:hover, .subnav .on .nav-a{background-position:0 -51px;}
+
+
+
+
+.frd-links{padding:33px 0 45px;background-color:#292929;}
+.frd-links .wrap{border-top:1px solid #464646;}
+.frd-links-wrap{border-top:1px solid #212121}
+.frd-links dl{float:left;text-align:center;width:85px;margin-right:54px;}
+.frd-links dt{color:#bebebe;font-size:13px;line-height:60px;}
+.frd-links dd a{color:#9f9f9f;font-size:11px;line-height:24px;}
+.frd-links .wx{position: relative;}
+.frd-links .wx_hover{display:none;position: absolute;left: 70px;top:-50px;padding: 10px;background: #FFFFFF;border-radius: 8px;}
+.frd-links .wx:hover .wx_hover{display: block;}
+.frd-links .contact{float:right;width:230px;text-align:right;padding-top:22px;}
+.frd-links .contact-qq{display:inline-block;width:111px;height:29px;background-position:0 -22px;}
+.frd-links .contact-qq img{display:none;}
+.frd-links .contact-phone{font-size:24px;color:#bebebe;font-weight:bold;line-height:40px;padding-top:4px;letter-spacing: 3px;}
+.frd-links .contact-desc{font-size:11px;color:#bebebe;}
+.footer{height:50px;line-height:50px;background-color:#f1f1f1;color:#191919;text-align:center;font-size:11px;}
+.footer a{color:#191919;}
+
+.scrolltop{position: fixed;right:20px;bottom: 50px;width:50px;height:50px;background-position: -102px -80px;}
+.scrolltop.bottom{background-position: -51px -80px;}
+.scrolltop:hover{background-position: 0 -80px;}
+
+/*
+分页样式&结构
+
+<div class="pages">
+	<div class="pages-wrap">
+		<ul class="pages-ul clearfix">
+			<li class="page-li"><a class="page-a arr-left arr-left-disable"></a></li>
+			<li class="page-li on"><a class="page-a">1</a></li>
+			<li class="page-li"><a class="page-a">2</a></li>
+			<li class="page-li"><a class="page-a">3</a></li>
+			<li class="page-li"><a class="page-dot">&bull;&bull;&bull;</a></li>
+			<li class="page-li"><a class="page-a">4</a></li>
+			<li class="page-li"><a class="page-a arr-right"></a></li>
+		</ul>
+	</div> 
+</div>
+*/
+.pages{overflow:hidden;}
+.pages .pages-wrap, 
+.pages .pages-ul{position:relative;left:50%;float:left;width:auto;}
+.pages .pages-ul{left:-50%;}
+.pages .page-li{float:left;margin-right:8px;}
+.pages .page-a{display:block;width:20px;height:20px;line-height:20px;text-align:center;font-size:10px;color:#1c1c1c;border:1px solid #e1e1e1;background-color:#FFFFFF;}
+.pages .page-dot{display:block;width:22px;height:22px;line-height:22px;text-align:center;font-size:10px;color:#e1e1e1;}
+.pages .arr-left, .pages .arr-right{width:42px;height:20px;line-height:20px;color:#1c1c1c;}
+.pages .page-a:hover{color:#f8b62b;border-color:#f8b62b;cursor:pointer;}
+.pages .page-li .arr-left-disable, .pages .page-li .arr-left-disable:hover, .pages .page-li .arr-right-disable, .pages .page-li .arr-left-disable:hover{background-position:0 0;border-color:#e1e1e1;color:#e1e1e1;}
+.pages .on .page-a{background-color:#f8b62b;color:#fff;border-color:#f8b62b;}
+.pages-right .pages-wrap{float:right;left:auto;right:0;}
+.pages-right .pages-ul{left:auto;}
+
+
+
+.mask{position:fixed;width: 100%;height: 100%;left: 0;top: 0;background:#000;opacity: 0.38;filter:alpha(opacity=38);}
+
+
+
+

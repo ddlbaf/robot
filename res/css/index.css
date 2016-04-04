@@ -1,0 +1,19 @@
+.banner{position:relative;height: 730px;width: 100%;overflow: hidden;}
+.banner-ul{height: 100%;width: 300%;}
+.banner-ul .banner-li{float:left;width: 33.3333%;height: 100%;}
+.tab-ul{position: absolute;left: 50%;bottom:33px;margin-left: -60px;z-index: 10;}
+.tab-ul .tab-li{display: inline-block;width:6px;height:6px;border-radius:4px;margin:0 10px;border:1px solid transparent;background-color: #cbcbcb;cursor: pointer;}
+.tab-ul .tab-li:hover{background:#666666;}
+.tab-ul .tab-li.on{border:1px solid #f6b101;background: none;}
+.banner1{background:url(../img/index/tab1.jpg) center no-repeat;}
+.banner2{background:url(../img/index/tab2.jpg) center no-repeat;}
+.banner3{background:url(../img/index/tab3.jpg) center no-repeat;}
+
+
+
+
+
+
+
+
+

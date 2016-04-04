@@ -1,0 +1,52 @@
+/*  index.html  */
+.index{background: #f6f6f6;}
+.index .subnav{background:rgba(52, 52, 52, 0.55);}
+.index .subnav .subnav-ul{bottom: -3px;}
+.index .section1 .logo, .index .title, .index .download .ico{background:url(../img/app/index.png) no-repeat;}
+.index .banner{width:100%;height:789px;background:url(../img/app/index_banner.jpg) center no-repeat;}
+.index .section1{padding-top: 130px;}
+.index .section1 .wrap{padding: 0 30px;width: 1060px;}
+.index .section1 .logo{width: 183px;height: 78px;margin-bottom:66px;background-position: -161px -113px;}
+.index .section1 .title{width:400px;height: 46px;margin-bottom:18px;background-position: 0 0;text-indent: -9999px;}
+.index .section1 .p{font-size: 16px;color: #6a6a6a;width: 410px;line-height: 24px;}
+.index .download{position: relative;padding-top: 30px;}
+.index .download .download_iphone{display: block;width: 143px;height: 40px;margin-bottom:13px;background-position: 0 -113px;}
+.index .download .download_iphone:hover{background-position:0 -196px;}
+.index .download .download_android{display: block;width: 141px;height: 40px;background-position: 0 -155px;}
+.index .download .download_android:hover{background-position:0 -238px;}
+.index .download .download_code{position:absolute;left: 157px;top:30px;width: 94px;height: 95px;border-radius: 5px;overflow: hidden;}
+
+
+.index .section2{height: 567px;padding-top:160px;background:#f6f6f6 url(../img/app/index_section2.jpg) center top no-repeat;}
+.index .section2 .title{width:560px;height: 46px;background-position: 0 -60px;text-indent: -9999px;margin-bottom: 14px;}
+.index .section2 .p{line-height:27px;width: 440px;font-size: 16px;color:#626262;}
+
+
+
+/*  instructions.html  */
+.instructions .container{min-width: 900px;}
+.instructions .banner{position: relative;}
+.instructions .subnav{position: absolute;left: 0;right: 0;top: 0;} 
+.instructions .instruction9_hand{position: absolute;bottom: 0;left: 50%;margin-left: -36.5%;width: 594px;}
+.instructions .instruction9_gif{position: absolute;top: 80px;right: 119px;width: 212px;}
+
+.small-instructions .instruction9_hand{width: 400px;}
+.small-instructions .instruction9_gif{top: 54px;right: 80px;width: 142px;}
+
+.smallest-instructions .instruction9_hand{width: 300px;}
+.smallest-instructions .instruction9_gif{top: 40px;right: 60px;width: 107px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

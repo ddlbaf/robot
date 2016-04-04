@@ -1,0 +1,38 @@
+.banner{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.banner-ul{
+    position: absolute;
+    left : 0;
+    top:0;
+    bottom:0;
+    width: 300%;
+}
+.banner-li{
+    position:relative;
+    float: left;
+    height: 100%;
+    width: 33.3333%;
+}
+.banner1{
+    background: url("../img/index/tab1.jpg?v=1") no-repeat;
+    background-size: cover;
+}
+.banner2{
+    background: url("../img/index/tab2.jpg?v=1") no-repeat;
+    background-size: cover;
+}
+.banner3{
+    background: url("../img/index/tab3.jpg?v=1") no-repeat;
+    background-size: cover;
+}
+.tab-ul{position: absolute;left: 50%;bottom:1rem;margin-left:-46px;z-index: 10;}
+.tab-ul .tab-li{display: inline-block;width:8px;height:8px;border-radius:5px;margin:0 10px;border:1px solid transparent;background-color: #cbcbcb;cursor: pointer;}
+.tab-ul .tab-li.on{border:1px solid #f6b101;background: none;}
+
+.tab_logo{position: absolute;bottom:3rem;left:50%;width:4.3rem;height:2.1rem;margin-left:-2.15rem;z-index: 10;background:url(../img/index/tab_logo.png) center top no-repeat;background-size: 4.3rem auto;}
+
+
